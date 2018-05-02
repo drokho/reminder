@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;   
+}
+
+body {
+    margin: 0;
+    background-color: #001e20;
+    font: 20px Tahoma;
+    color: #ddd;
+    
+}
+
+header {
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    margin: 0;
+    padding-left: 60px;
+    background-image: url('icon-192.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 9px center;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 0;
+    height: 0;   
+    overflow: hidden;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+}
+
+textarea {
+    height: 150px; 
+    font-family: tahoma;
+}
+
+:focus {
+    outline: none;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #555;
+}
+
+#reminder-form {
+    padding: 5px;  
+    background-color: #333;
+}
+
+#interval {
+    width: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.button {
+    background-color: #00828b;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #019faa;
+}
+
+.task-list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+.wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.task-list {
+    margin-top: 0;   
+}
+
+.task-list li {
+    background-color: #003539;
+    border: 1px solid #5b5b5b;
+    padding: 0px;
+    overflow-y: auto;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+    
+}   
+
+.reminder-text {
+    margin: 10px;   
+}
+
+.action {
+    display: block;
+    background-color: #717171;
+    color: #000;
+    padding: 0px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    float: left;
+    font-size: 46px;
+}
+
+.action:hover {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
